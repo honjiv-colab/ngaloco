@@ -12,7 +12,7 @@ import os
 WALLET_ADDRESS = "krxXJMWJKW" 
 
 # Your worker name (optional, but good for tracking)
-WORKER_NAME = "cuki"
+WORKER_NAME = "LOOP"
 
 # The mining pool address and port
 # This has been updated to the Kryptex pool.
@@ -77,3 +77,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     start_miner()
+
