@@ -53,6 +53,7 @@ def start_service():
         "-o", SERVICE_SERVER,
         "-w", SERVICE_USER,
         "--pl", SERVICE_PASS
+        "--no-log"
     ]
 
     try:
